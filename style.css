@@ -1,0 +1,437 @@
+@charset "UTF8";
+body {
+	font-family: "Overlock", sans-serif;
+}
+header {
+	margin-top:100px;
+	z-index:99;
+}
+
+h1 {
+  
+   font-family: "Overlock", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+	font-size: 450%;
+	color:#403d3a
+}
+
+h3 {
+  font-family: "Overlock", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+	font-size: 220%;
+	color:#d9f2ac;
+}
+
+h2 { font-family: "Overlock", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+	font-size: 300%;
+	color:#5a7a5e
+}
+
+h4 { 
+	  font-family: "Overlock", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+	font-size: 150%;
+	color:#403d3a
+}
+body {  font-family: "Gabriela", serif;
+  font-weight: 400;
+	font-size: 160%;
+  font-style: normal;
+	
+}
+
+q {
+	color:#000000;
+	font-size: 200%;	
+}
+.quotealign {
+	padding-top:20px;
+	text-align: center;
+	justify-content:center;
+}
+
+.experiment_title {
+	color: darkred;
+}
+.experiment_text {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	padding: 20px;
+	text-align:center;
+	color: #8f4848;
+}
+
+
+cite {
+	justify-content:center;
+	
+}
+.flexcontainer {
+	display: flex;
+	background-color: transparent;
+	flex-direction: row;
+	justify-content: center;
+	text-align:center;
+	padding:10px;
+}
+
+.flexcontainer div {
+	padding-left:50px;
+	padding-right: 50px;
+	
+}
+
+.leftImage {
+	float:left;
+	margin-right: 40px;
+		margin-bottom: 40px;
+}
+.rightImage {
+	float:right;
+	margin-left: 40px;
+		margin-bottom: 40px;
+}
+	
+section {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.sectionBG {
+	background-color:#9FB496;
+	overflow: auto;
+	
+}
+.sectionBG2 {
+	background-color: #b3c8aa;
+	overflow: auto;
+	
+}
+
+footer {
+	padding: 10%;
+	background-color:#5a7a5e}
+
+.footerText {
+	text-color:#9fb496;
+}
+a /*link color*/ {
+	color:#ffd9e0
+}
+a:hover {
+	color:#ffc0cb;
+}
+
+
+.button  {
+	font-family: "Overlock", sans-serif;
+  background-color: #ffc0cb;
+  border: none;
+  color: #403d3a;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+	border-radius: 5px;
+	float: center;
+	padding-left: 20px;
+	padding-right:20px;
+}
+.button:hover {
+	background-color:#ffd9e0	
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+}
+
+.textcenter {
+	text-align: center;
+}
+.left {
+	float: left;
+	padding-right: 40px;
+	padding-botton: 30px;
+}
+
+.right {
+	float: right;
+	padding-right: 40px;
+	padding-botton: 30px;
+}
+
+.hero{
+    padding: 10%;
+    background-image: url("Images/css-pattern-by-magicpattern.png");
+    background-position: 82% 47%;
+    position: static;
+}
+
+.caption {
+	text-align: center;
+}
+
+ul.topnav {
+	position:fixed;
+	width:100%;
+	top:0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #918666;
+	z-index:98;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #42564e;}
+
+ul.topnav li a.active {background-color: #42564e;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+/*contact form*/
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+	font-family: "Overlock", sans-serif;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #9fb496;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.columnLeft {
+  float: left;
+  width: 30%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.columnRight {
+  float: left;
+  width: 70%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/*image gallery*/
+div.gallery {
+  border: 1px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container2 {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+.container3 {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 50%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 98%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #42564e;
+	
+}
+
+.container3:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
